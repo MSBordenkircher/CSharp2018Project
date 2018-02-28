@@ -33,7 +33,28 @@ footer {
 }
 
 .navbar {
-    background-color: #6feae6;
+    background-color: #bfb9ff;
+}
+
+a {
+    color: #bfb9ff;
+}
+
+ a:hover {
+     text-decoration: none;
+     color: #AD8CFF;
+    }
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #6DFFB8;
+    font-weight: 800; 
+}
+
+.navbar-inverse .navbar-brand {
+    color: #6DFFB8;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Yatra One', cursive;
 }
 
 .jumbotron {
