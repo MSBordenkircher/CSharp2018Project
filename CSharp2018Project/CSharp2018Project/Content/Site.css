@@ -45,7 +45,7 @@ a {
      color: #AD8CFF;
     }
 
-.navbar-inverse .navbar-nav > li > a {
+/*.navbar-inverse .navbar-nav > li > a {
     color: #6DFFB8;
     font-weight: 800; 
 }
@@ -56,7 +56,7 @@ a {
     font-weight: 800;
     font-family: 'Yatra One', cursive;
 }
-
+*/
 .jumbotron {
     margin-top: 20px;
 }
