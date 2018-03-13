@@ -46,7 +46,7 @@ namespace CSharp2018Project
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Name,Category,Score")] Drink drink)
+        public ActionResult Create([Bind(Include = "Id,Name,Category,Score,Notes")] Drink drink)
         {
             if (ModelState.IsValid)
             {
@@ -78,7 +78,7 @@ namespace CSharp2018Project
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,Category,Score")] Drink drink)
+        public ActionResult Edit([Bind(Include = "Id,Name,Category,Score,Notes")] Drink drink)
         {
             if (ModelState.IsValid)
             {

@@ -14,6 +14,7 @@ namespace CSharp2018Project.Models
        public string Category { get; set; }
        [Range(0, 10, ErrorMessage = "Please enter a value between 0 and 10.")]
        public int? Score { get; set; }
+       public string Notes { get; set; }
     }
 
 
