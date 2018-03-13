@@ -1,6 +1,7 @@
 ﻿body {
-    padding-top: 50px;
     padding-bottom: 20px;
+    background-color: ##fdfff7;
+    max-width: 100%;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -29,11 +30,12 @@ footer {
     width: 100%;
     height: 60px;
     line-height: 60px;
-    background-color: white;
+    background-color: ##fdfff7;
 }
 
 .navbar {
-    background-color: #bfb9ff;
+    background-color: #c4ffe2;
+    margin-bottom: 50px;
 }
 
 a {
@@ -45,18 +47,22 @@ a {
      color: #AD8CFF;
     }
 
-/*.navbar-inverse .navbar-nav > li > a {
-    color: #6DFFB8;
-    font-weight: 800; 
+.navbar-inverse .navbar-nav > li > a {
+    color: #AD8CFF;
+    font-weight: 600;
 }
 
+
 .navbar-inverse .navbar-brand {
-    color: #6DFFB8;
-    font-size: 3rem;
+    color: #AD8CFF;
+    font-size: 2rem;
     font-weight: 800;
     font-family: 'Yatra One', cursive;
 }
-*/
+
 .jumbotron {
     margin-top: 20px;
+    background-color: #c4ffe2;
+    font-weight: 800;
 }
+  

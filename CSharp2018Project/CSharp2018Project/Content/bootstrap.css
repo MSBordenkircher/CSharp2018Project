@@ -55,7 +55,7 @@ html {
 }
 
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
-    display: block;
+  display: block;
 }
 
 body {
@@ -3839,14 +3839,14 @@ tbody.collapse.show {
 }
 
 .nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
 
 .nav-link {
@@ -3965,13 +3965,13 @@ tbody.collapse.show {
 }
 
 .navbar-brand {
-    display: inline-block;
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -3979,16 +3979,16 @@ tbody.collapse.show {
 }
 
 .navbar-nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
 
 .navbar-nav .nav-link {
@@ -8954,10 +8954,9 @@ a.text-dark:hover, a.text-dark:focus {
   .container {
     min-width: 992px !important;
   }
-    .navbar {
-        display: none;
-        color: #C774E8;
-    }
+  .navbar {
+    display: none;
+  }
   .badge {
     border: 1px solid #000;
   }
