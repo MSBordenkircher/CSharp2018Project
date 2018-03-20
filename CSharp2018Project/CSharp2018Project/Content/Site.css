@@ -1,7 +1,6 @@
 ﻿body {
+    padding-top: 50px;
     padding-bottom: 20px;
-    background-color: ##fdfff7;
-    max-width: 100%;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -24,6 +23,7 @@ textarea {
     max-width: 280px;
 }
 
+
 footer {
     position: absolute;
     bottom: 0;
@@ -33,36 +33,47 @@ footer {
     background-color: ##fdfff7;
 }
 
-.navbar {
-    background-color: #c4ffe2;
-    margin-bottom: 50px;
-}
 
 a {
-    color: #bfb9ff;
+    color: #AD8CFF;
 }
 
  a:hover {
      text-decoration: none;
-     color: #AD8CFF;
+     color: #7944FF;
     }
 
-.navbar-inverse .navbar-nav > li > a {
-    color: #AD8CFF;
-    font-weight: 600;
-}
+ li {
+     padding-left: 20px;
+     padding-right: 20px;
+ }
 
-
-.navbar-inverse .navbar-brand {
-    color: #AD8CFF;
+.title_words {
+    color: white;
+    position: center;
+    font-weight: 800;
     font-size: 2rem;
-    font-weight: 800;
-    font-family: 'Yatra One', cursive;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
 
-.jumbotron {
-    margin-top: 20px;
-    background-color: #c4ffe2;
-    font-weight: 800;
+nav {
+    margin-bottom: 20px;
+    margin-top: -30px;
 }
-  
+
+tr:nth-child(even) {
+    background: #C2EDE8;
+    color: #000;
+}
+
+tr:nth-child(2n+3) {
+    background: #DDFFF7;
+    color: #000;
+}
+
+.button {
+    padding-top: -5px;
+}
