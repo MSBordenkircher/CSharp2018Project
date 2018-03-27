@@ -1,16 +1,91 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Submit an Idea";
 }
+
+// @{
+//var emailaddress = "";
+//var drinkrecommendation = "";
+//var drinktype = "";
+//var drinkrating = "";
+//var drinknotes = "";
+
+//if (IsPost)
+//{
+//    emailaddress = Request.Form["emailaddress"];
+//    drinkrecommendation = Request.Form["drinkrecommendation"];
+//    drinktype = Request.Form["drinktype"];
+//    drinkrating = Request.Form["drinkrating"];
+//    drinknotes = Request.Form["drinknotes"];
+
+//    var db = Database.Open("WebPagesMovies");
+//    var insertCommand = "INSERT INTO Movies (Title, Genre, Year) Values(@0, @1, @2)";
+//    db.Execute(insertCommand, title, genre, year);
+//    Response.Redirect("~/Movies");
+//}
+}
+
 <h2>@ViewBag.Title.</h2>
-<h3></h3>
+<h3>I would love to hear your thoughts!</h3>
 
-<address>
-    On a Need To Know Basis<br />
-    Somewhereville, USA<br />
-    <abbr title="Phone">P:</abbr>
-    (555)555-5555
-</address>
-
-<address>
-    <strong>Send your ideas to:</strong>   <a href="mailto:null">PleaseDontActually@emailthis.com</a><br />
-</address>
+<form>
+    <div class="form-group">
+        <label for="emailAddress">Email Address</label>
+        <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com" required>
+    </div>
+    <div class="form-group">
+        <label for="drinkRecommendation">Drink Recommendation</label>
+        <input type="text" class="form-control" id="drinkRecommendation" placeholder="Russel's Reserve" required>
+    </div>
+    <div class="form-group">
+        <label for="drinkType">Drink Type</label>
+        <input type="text" class="form-control" id="drinkType" placeholder="Bourbon">
+    </div>
+    <div class="form-group">
+        <label for="drinkRating">Drink Rating</label><br>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+            <label class="form-check-label" for="inlineRadio1">1</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" required>
+            <label class="form-check-label" for="inlineRadio2">2</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" required>
+            <label class="form-check-label" for="inlineRadio3">3</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4" required>
+            <label class="form-check-label" for="inlineRadio4">4</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5" required>
+            <label class="form-check-label" for="inlineRadio5">5</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6" required>
+            <label class="form-check-label" for="inlineRadio6">6</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio7" value="option7" required>
+            <label class="form-check-label" for="inlineRadio7">7</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio8" value="option8" required>
+            <label class="form-check-label" for="inlineRadio8">8</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio9" value="option9" required>
+            <label class="form-check-label" for="inlineRadio9">9</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio10" value="option10" required>
+            <label class="form-check-label" for="inlineRadio10">10</label>
+        </div>
+        <div class="form-group">
+            <label for="drinkNotes">Any Notes?</label>
+            <textarea class="form-control" id="drinkNotes" rows="3"></textarea>
+        </div>
+    </div>
+    <input type="submit" name="buttonSubmit" value="Recommend!" />
+</form>
